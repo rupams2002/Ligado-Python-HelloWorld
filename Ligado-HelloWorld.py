@@ -7,10 +7,10 @@
 #********************************************************************
 
 import time
-# import json
-# import mysql.connector
-# import splunklib.client as client
-# import splunklib.results as results
+import json
+import mysql.connector
+#import splunklib.client as client
+#import splunklib.results as results
 
 
 
