@@ -16,5 +16,8 @@ COPY . .
 # Expose the port that the app runs on
 EXPOSE 1007
 
+# Set the environment variable to disable output buffering 
+ENV PYTHONUNBUFFERED=1
+
 # Run the application
 CMD ["python", "Ligado-HelloWorld.py"]
