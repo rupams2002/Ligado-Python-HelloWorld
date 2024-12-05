@@ -14,7 +14,7 @@ WORKDIR /app
 COPY . .
 
 # Expose the port that the app runs on
-EXPOSE 5000
+EXPOSE 1007
 
 # Run the application
 CMD ["python", "Ligado-HelloWorld.py"]

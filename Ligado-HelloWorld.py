@@ -6,8 +6,8 @@
 # VERSION      : 1.0.0
 #********************************************************************
 
+import time
 # import json
-# import time
 # import mysql.connector
 # import splunklib.client as client
 # import splunklib.results as results
@@ -145,6 +145,6 @@ def Insert_Into_DB(data_list):
 # data_list = SplunkData(job_results)
 # Insert_Into_DB(data_list)
 
-
-print("Welcome to Ligado - Python Application Version 1.0.0\n")
-
+while True: 
+    print("Welcome to Ligado - Python Application Version 1.0.0\n")    
+    time.sleep(60)
