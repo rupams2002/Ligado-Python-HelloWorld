@@ -6,11 +6,11 @@
 # VERSION      : 1.0.0
 #********************************************************************
 
-import json
-import time
-import mysql.connector
-import splunklib.client as client
-import splunklib.results as results
+# import json
+# import time
+# import mysql.connector
+# import splunklib.client as client
+# import splunklib.results as results
 
 
 
